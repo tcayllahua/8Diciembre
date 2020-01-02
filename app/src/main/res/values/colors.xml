@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="white">#eee</color>
+
+    <color name="green_white">#00a694</color>
+    <color name="rojo_spook">#da152c</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="color_details_desc">#c1c0c0</color>
+
+
+
+    <color name="profile_background">#2e313d</color>
+    <color name="Background_coins">#4d2fb7</color>
+    <color name="texto_desc_gris">#c1c0c0</color>
+
+
+
+</resources>

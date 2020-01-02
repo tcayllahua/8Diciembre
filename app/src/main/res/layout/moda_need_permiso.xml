@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="210dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+
+        <TextView
+            android:id="@+id/title_pop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿No puedes Acceder?"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/modal_need_text_body"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="Para esta caracteristica necesitas iniciar sesión o registrarse."
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/modal_need_inicia_sesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inciar Sesión"
+                android:background="@drawable/design_one"
+                android:layout_weight=".5"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:id="@+id/modal_need_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design_one"
+                android:textColor="@color/white"
+                android:text="Cerrar"
+                android:layout_gravity="center"
+                android:layout_weight=".5"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

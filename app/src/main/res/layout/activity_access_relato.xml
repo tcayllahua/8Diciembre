@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context="com.valdemar.SplashActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearAccesso"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@mipmap/logotipo"
+                />
+            <TextView
+                android:id="@+id/splash_text_spook"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Spook"
+                android:textSize="45sp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:textColor="#eee"
+                android:layout_below="@+id/image_logo_splash"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="4"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/accesso_login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:hint="Usuario"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="left"
+                />
+
+            <EditText
+                android:id="@+id/accesso_login_password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="14dp"
+                android:hint="Contraseña"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="left"
+                />
+
+            <Button
+                android:id="@+id/accesso_login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Acceder"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:background="@color/rojo_spook"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/acceso_reinicio_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:text="¿No tienes una cuenta?, "/>
+
+                <TextView
+                    android:id="@+id/acceso_create_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Create una cuenta."
+                    android:textColor="#da152c"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:layout_marginTop="10dp"
+                    android:text="¿Olvidate tu contraseña?, "/>
+                <TextView
+                    android:id="@+id/acceso_forget_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" Click Aquí."
+                    android:textColor="#da152c"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                />
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:color="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/login_button"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    facebook:com_facebook_login_text="Continuar con facebook"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="20dp"
+
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:visibility="gone"
+                android:id="@+id/accessRelatoGoogle"
+                android:layout_width="280dp"
+                android:layout_height="48dp"
+                android:background="@drawable/sing_google_design"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="22dp"
+                    android:clickable="false"
+                    android:src="@drawable/ic_google" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="Continuar con google"
+                    android:textColor="@color/white" />
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

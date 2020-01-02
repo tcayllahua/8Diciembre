@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Spook</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="banner">ca-app-pub-2031757066481790/7693263745</string>
+    <string name="banner1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="title_activity_view_spook">ViewSpook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Spook</string>
+    <string name="nav_header_subtitle">Sin sesión</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Publicar Lectura</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="meme">Memes</string>
+
+    <string-array name="planets_array">
+        <item>Seleccion una Categoria:</item>
+        <item>EpisodiosPerdidos</item>
+        <item>Creepypastas</item>
+        <item>LeyendasUrbanas</item>
+        <item>Fantasmas</item>
+        <item>AsesinosSeriales</item>
+    </string-array>
+
+    <string name="facebook_app_id">468214920501582</string>
+    <string name="fb_login_protocol_scheme">fb468214920501582</string>
+
+    <string name="menu_chat">Chat</string>
+    <string name="menu_logout">Cerrando sesión</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="menu_creation">Mis creaciones</string>
+    <string name="menu_post">Publicar lectura</string>
+
+
+</resources>

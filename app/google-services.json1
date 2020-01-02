@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "445112392274",
+    "firebase_url": "https://spookapp-d9304.firebaseio.com",
+    "project_id": "spookapp-d9304",
+    "storage_bucket": "spookapp-d9304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445112392274:android:b35a4debd6e47d99759d8b",
+        "android_client_info": {
+          "package_name": "com.valdema"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445112392274-pp9vqaci6knejqg96r8p1aqsddqb409m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valdema",
+            "certificate_hash": "c2b0d0971f9d094a9eb3ff42d55a47c3fded32cf"
+          }
+        },
+        {
+          "client_id": "445112392274-u3nb62o24s2o42mnk88nhultu8cu87il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-0VOGRzNELRzQNHqEJjhxhNo6u-SqXiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445112392274-u3nb62o24s2o42mnk88nhultu8cu87il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445112392274:android:fea8fefe668454ce759d8b",
+        "android_client_info": {
+          "package_name": "com.valdemar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445112392274-ugk8b3to04f1eit25hlfjpfsmoq77vtd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valdemar",
+            "certificate_hash": "c2b0d0971f9d094a9eb3ff42d55a47c3fded32cf"
+          }
+        },
+        {
+          "client_id": "445112392274-u3nb62o24s2o42mnk88nhultu8cu87il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-0VOGRzNELRzQNHqEJjhxhNo6u-SqXiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445112392274-u3nb62o24s2o42mnk88nhultu8cu87il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445112392274:android:03381a0a728c0528759d8b",
+        "android_client_info": {
+          "package_name": "relatosterror.historiasterror.spooky.spook.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445112392274-uf0vr2c0pi33kik2l3g0a0coi1skrf63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "relatosterror.historiasterror.spooky.spook.com",
+            "certificate_hash": "c2b0d0971f9d094a9eb3ff42d55a47c3fded32cf"
+          }
+        },
+        {
+          "client_id": "445112392274-alma14insi58avcelrj8ge7ihhuvh2on.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "relatosterror.historiasterror.spooky.spook.com",
+            "certificate_hash": "aee0b1b95d94990f11805502c1f66c4bf38d2bcf"
+          }
+        },
+        {
+          "client_id": "445112392274-u3nb62o24s2o42mnk88nhultu8cu87il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-0VOGRzNELRzQNHqEJjhxhNo6u-SqXiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445112392274-u3nb62o24s2o42mnk88nhultu8cu87il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

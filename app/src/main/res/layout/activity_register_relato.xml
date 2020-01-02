@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo_background"
+    android:id="@+id/registerRelato"
+    tools:context=".view.auth.RegisterRelato">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0.7">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/register_title_sangrienta_lectura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Crear Cuenta"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="80sp"
+            />
+
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/relato_regis_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/register_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:hint="Usuario"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="left"
+                />
+
+
+            <EditText
+                android:id="@+id/register_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="left"
+                />
+
+            <EditText
+                android:id="@+id/register_user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="left"
+                />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/RegistrarCuenta"
+            android:layout_marginTop="40dp"
+            android:layout_width="280dp"
+            android:background="@color/rojo_spook"
+
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="22dp"
+                android:clickable="false"
+                android:src="@mipmap/ic_mail" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:gravity="center"
+                android:text="Registar Cuenta"
+                android:textColor="@color/white" />
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
